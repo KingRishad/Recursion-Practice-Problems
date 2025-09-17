@@ -21,8 +21,11 @@ int main()
         printf("Count of digits: %d",n);
         printf("\nDigits: %d",n);
     }
-    printf("Digits: ");
-    int count=fun(n);
-    printf("\nCount of digits: %d",count);
+    else{
+        printf("Digits: ");
+        int count=fun(n);
+        printf("\nCount of digits: %d",count);
+    }
     return 0;
 }
+
